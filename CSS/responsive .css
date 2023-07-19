@@ -45,11 +45,18 @@ width:100%;
 text-align: center;
 padding-left:0;
 }
-
-
-} 
-
-/*         Tablet device    */
+ /* card   000 */
+.card-container{
+   
+    grid-template-columns:repeat(1,1fr);
+}  
+.card{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+}
+}
+/*.....................    ......     Tablet device  .......................................  */
 
 @media screen and (min-width:576px) and (max-width:992px){
 /* Header style  */
@@ -91,8 +98,10 @@ width:100%;
 text-align: center;
 padding-left:0;
 }
-
-    
-
+ /* card   000 */
+ .card-container{
+   
+    grid-template-columns:repeat(2,1fr);
+}  
 
 }
