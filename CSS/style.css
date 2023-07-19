@@ -2,148 +2,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Work Sans', sans-serif;
 } 
 /* Common css  */ 
 body{
-    max-width: 1440px;
-    margin: 0 auto;
+max-width: 1440px;
+margin: 0 auto;
 }
 
 .btn-primary{
-    border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding:15px 25px;
-    border:0;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+padding:15px 25px;
+border:0;
+} 
+.common-describe{
+color: #534C64;
+font-size:1.2rem;
+font-weight: 400;
+margin-top:10px;
+margin-bottom:10px;
 }
 /* Header style  */
 nav{
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 } 
 .nav-container{
-    max-width:1300px;
-    margin:0 auto;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding:12px;
+max-width:1300px;
+margin:0 auto;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding:12px;
 } 
 .nav-img{
-    display: flex;
-    align-items: center;
-    margin-left:0;
+display: flex;
+align-items: center;
+margin-left:0;
 } 
 .nav-img p{
-    font-size:2.8rem;
-    font-weight: 700;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-left:10px;
+font-size:2.8rem;
+font-weight: 700;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-left:10px;
 }
 .amer{
-    background: var(--linear, linear-gradient(90deg,  #0B0223 0%,#0B0223 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+background: var(--linear, linear-gradient(90deg,  #0B0223 0%,#0B0223 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 .nav-text {
-    width:50%;
-    margin-right:0;
-    
+width:50%;
+margin-right:0;
+
 } 
 .nav-text ul{
-    display: flex;
-    list-style: none;
-    justify-content:space-between;
-    align-items: center;
+display: flex;
+list-style: none;
+justify-content:space-between;
+align-items: center;
 } 
 .nav-text ul li a{
-    color: #3C354F;
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-decoration:none;
+color: #3C354F;
+font-size: 1.2rem;
+font-weight: 500;
+text-decoration:none;
 } 
 .nav-icon-left button{
-   display: flex;
-   gap:10px;
-   align-items: center;
-   border-radius: 8px;
-   background: rgba(11, 2, 35, 0.10);
-   padding:10px;
-   border:0;
+display: flex;
+gap:10px;
+align-items: center;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding:10px;
+border:0;
 } 
 .nav-icon-left button i{
-    font-size:1.5rem;
+font-size:1.5rem;
 }
 .nav-icon-left button .youtube{
-    font-size:1.5rem;
-    color: red;
+font-size:1.5rem;
+color: red;
 } 
 /* Banner style  ....... */
 
 .banner-container{
-    max-width:1300px;
-    margin:0 auto;
-    display: flex;
-    align-items: center;
+max-width:1300px;
+margin:0 auto;
+display: flex;
+align-items: center;
 
 } 
 .banner-text{
-    width: 50%;
+width: 50%;
 }
 .banner-text h2{
-    color: #0B0223;
-    font-weight: 600;
-    font-size:2.8rem;
+color: #0B0223;
+font-weight: 600;
+font-size:2.8rem;
 } 
 .banner-text h1{
-    font-size:5rem;
-    font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+font-size:5rem;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 } 
 .li-item{
-    display: flex;
-    align-items: center;
-    margin-left:0;
-    margin-bottom:10px;
+display: flex;
+align-items: center;
+margin-left:0;
+margin-bottom:10px;
 } 
 .li-item img{
-    margin-left:0;
-    margin-right:2px;
+margin-left:0;
+margin-right:2px;
 }
 .li-item p{
-    margin-left:0;
-    color: #534C64;
-    font-size:1.2rem;
-    font-weight: 500;
-    text-transform: lowercase;
+margin-left:0;
+color: #534C64;
+font-size:1.2rem;
+font-weight: 500;
+text-transform: lowercase;
 }
 
 .banner-text ul li{
-    list-style:none;
+list-style:none;
 }
 .btn-rogue{
-    background: var(--linear, linear-gradient(90deg, #4EC5F7 0%, #4EC5F7 100%));
+background: var(--linear, linear-gradient(90deg, #4EC5F7 0%, #4EC5F7 100%));
 } 
 .banner-img{
-    width: 50%;
+width: 50%;
 } 
 .banner-img img{
-    width: 100%;
-    height:550px;
-    object-fit: cover;
+width: 100%;
+height:550px;
+object-fit: cover;
+} 
+/*  <!-- Section "We are gamer" start --> */
+.gamer-container{
+max-width:1300px;
+margin:50px auto; 
+display:flex;
+}
+
+.gamer-img{
+width:50%; 
+} 
+.gamer-img img{
+width: 100%;
+}
+.gamer-text{
+width:50%;
+text-align: right;
+padding-left:100px;
+} 
+
+.gamer-text h2{
+font-size:2.8rem;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom:20px;
+} 
+.gamer-text h3{
+color: #534C64;
+font-size:2rem;
+font-weight: 700;
 }
