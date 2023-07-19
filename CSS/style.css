@@ -5,10 +5,24 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    max-width:1440px;
-    margin:0 auto;
     font-family: 'Work Sans', sans-serif;
-}  
+} 
+/* Common css  */ 
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding:15px 25px;
+    border:0;
+}
 /* Header style  */
 nav{
     background: #FFF;
@@ -51,7 +65,7 @@ nav{
 .nav-text ul{
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
 } 
 .nav-text ul li a{
@@ -75,4 +89,61 @@ nav{
 .nav-icon-left button .youtube{
     font-size:1.5rem;
     color: red;
+} 
+/* Banner style  ....... */
+
+.banner-container{
+    max-width:1300px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+
+} 
+.banner-text{
+    width: 50%;
+}
+.banner-text h2{
+    color: #0B0223;
+    font-weight: 600;
+    font-size:2.8rem;
+} 
+.banner-text h1{
+    font-size:5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+.li-item{
+    display: flex;
+    align-items: center;
+    margin-left:0;
+    margin-bottom:10px;
+} 
+.li-item img{
+    margin-left:0;
+    margin-right:2px;
+}
+.li-item p{
+    margin-left:0;
+    color: #534C64;
+    font-size:1.2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.banner-text ul li{
+    list-style:none;
+}
+.btn-rogue{
+    background: var(--linear, linear-gradient(90deg, #4EC5F7 0%, #4EC5F7 100%));
+} 
+.banner-img{
+    width: 50%;
+} 
+.banner-img img{
+    width: 100%;
+    height:550px;
+    object-fit: cover;
 }
